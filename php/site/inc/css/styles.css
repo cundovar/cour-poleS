@@ -1,0 +1,138 @@
+                    /* *************************            
+                            gereral
+                        ********************** */
+
+                    * {
+                        margin: 0;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: black;
+                    }
+
+                    .conteneur {
+                        margin: 0 auto;
+                        max-width: 1170px;
+                    }
+
+                    a:hover a {
+                        color: #ffd700;
+                    }
+
+                    button a {
+                        color: #fff;
+                    }
+
+                    body {
+                        font-family: 'Roboto', sans-serif;
+                    }
+
+                    h1,
+                    h2,
+                    h3,
+                    h4,
+                    h5,
+                    h6 {
+                        font-family: 'Lato', sans-serif;
+                        font-weight: 700;
+                    }
+
+                    /***************************** //haut *********************/
+
+                    header {
+                        background: #000;
+                        padding: 5px;
+                        text-align: center;
+                    }
+
+                    header span {
+                        color: #fff;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        margin-right: 5%;
+                    }
+
+                    header span a :hover {
+                        background: #04baf6;
+                        color: #ffd700;
+                    }
+
+                    header nav {
+                        display: inline;
+                    }
+
+                    header a {
+                        color: #fff;
+                        text-decoration: none;
+                        padding: 5px;
+                    }
+
+                    header nav a:hover {
+                        background: #04baf6;
+                        color: #ffd700;
+                    }
+
+
+                    /******************************* milieu **************************/
+
+                    section {
+                        padding: 30px;
+                        min-height: 865px;
+                    }
+
+
+                    /********************************* bas ***************************/
+
+                    footer {
+                        background: #000;
+                        color: #fff;
+                        text-align: center;
+                        padding: 7px 0;
+                    }
+
+
+                    /* ***********************
+                    back gestion produit
+                    **************************/
+                    .img-gestion-produit{
+
+                        height: 120px;
+                        object-fit:contain;
+                        width: 120px;
+
+                    }
+                    .img-gestion-produit-motif{
+                        object-fit: contain;
+                    }
+                    /* front boutique */
+
+                    .boutique-gauche{
+                        background-color: #fff;;min-height: 500px; padding-top: 10px;
+                    }
+                    .boutique-gauche ul{
+                        list-style: none;
+                    }
+                    .boutique-gauche ul li a {
+                        display: block;
+                        padding: 10px;
+                    }
+                    .boutique-gauche ul li a:hover {
+                        background-color: #ffd700;
+                        color: rgb(38, 112, 136);
+
+                    }
+                    .boutique-droite{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                    }
+                    .boutique-droite:hover{
+                        background-color: antiquewhite;
+                    }
+                    .card-img-top{
+                        min-height: 200px;
+                        max-height:330px;
+                        object-fit: contain;
+                        width: 100%;
+                    }
